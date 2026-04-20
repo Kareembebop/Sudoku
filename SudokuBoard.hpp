@@ -10,7 +10,7 @@ class SudokuBoard{
 
     bool isvalidMove(int row, int col,int value) const;
     
-    bool setCellValue(int row ,int col, int value) const;
+    bool setCellValue(int row ,int col, int value) ;
 
     int getCellValue(int row, int col) const;
 
